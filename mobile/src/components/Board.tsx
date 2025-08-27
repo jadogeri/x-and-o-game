@@ -1,8 +1,13 @@
 import React from 'react'
+import Square from './Square'
 
 const Board = () => {
   return (
-    <div>Board</div>
+    <div>
+        <Square /><Square /><Square />
+        <Square /><Square /><Square />
+        <Square /><Square /><Square />
+    </div>
   )
 }
 
