@@ -1,13 +1,20 @@
 import React from 'react'
 import Square from './Square'
+import { View } from 'react-native'
 
 const Board = () => {
   return (
-    <div>
+    <View>
+      <View style={{display: 'flex',flexDirection:"row"}}>
         <Square /><Square /><Square />
+      </View>
+      <View style={{display: 'flex',flexDirection:"row"}}>
         <Square /><Square /><Square />
+      </View>
+      <View style={{display: 'flex',flexDirection:"row"}}>
         <Square /><Square /><Square />
-    </div>
+      </View>
+    </View>
   )
 }
 
